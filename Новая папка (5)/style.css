@@ -1,0 +1,459 @@
+/* * {} */
+
+body {
+    background: #EEEFF1;
+    width: 100%;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.box1 {
+    display: flex;
+    width: 1240px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.top2 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.icon {
+    color: #1B1B1D;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.img {
+    width: 126px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.basket {
+    padding: 16px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+.gift {
+    border-radius: 63px;
+    background: #1B1B1D;
+    box-shadow: 0px 30px 60px 0px rgba(163, 168, 178, 0.15);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+
+.box2 {
+    display: flex;
+    width: 1240px;
+    justify-content: space-between;
+    align-items: top;
+}
+
+h1 {
+    color: #1B1B1D;
+    font-family: Jost;
+    font-size: 124px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140px;
+    /* 112.903% */
+}
+
+h1::after {
+    content: '';
+    display: inline-block;
+    width: 90px;
+    height: 70px;
+    background: url(https://s3-alpha-sig.figma.com/img/3715/5a47/c8b1fa7218b1439651ba8e2b05dd4773?Expires=1704067200&Signature=Jn0Kd4i8zeC9L-5BcoEnCc9DZxCIBOQ~ZQ1FqbNFkV5jdpRtFppLIOaO7j8vcIDaRrPRYzLIKIlXNM8SNvl5bJ5~9OupkYm1axqGOx8wvG16KBxcjLg0RBxetQR~3Pm2z~3oDCk2DXeRmfnAgPDrHSxlIUJXl-4ij8Twu-jC9f-kfe009W-Ji8Zn7lShEV6GsheCtrlw6UNkieJEzERkEZ0w4TliumUXRlFhHCaSJ6lelDKQ0s5CAarlCtNdcHoMk~e~zVMymp19b-r-iS5qUTXjxL0VdTylwwWMwRsG5komDwGKi4UJ~jeh9ggZR1xbhB3vgajPHmudisF3pbjCSg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    color: #64646A;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.group2 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+button {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 166.667% */
+    border: 1px solid black;
+    border-radius: 126px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #1B1B1D;
+}
+
+a {
+    color: #1B1B1D;
+
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+.bot2 {
+    display: flex;
+    align-items: start;
+}
+
+.rating {
+    border-radius: 24px;
+    background: #FFF;
+    border: 1px solid white;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.star {
+    background-color: white;
+}
+
+.rat {
+    color: #64646A;
+    font-family: Jost;
+    font-size: 19px;
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 26px;
+    /* 136.842% */
+    background-color: white;
+}
+
+.third {
+    margin-top: 70px;
+    margin-right: 100px;
+}
+
+h2 {
+    color: #1B1B1D;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 70px;
+    /* 109.375% */
+}
+
+.cof {
+    color: #64646A;
+    text-align: center;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    width: 393px;
+    height: 540px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: linear-gradient(152deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    box-shadow: 0px 30px 60px 0px rgba(163, 168, 178, 0.15);
+    /* padding: 40px; */
+    padding-left: 40px;
+}
+
+h3 {
+    color: #1B1B1D;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: linear-gradient(152deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+
+}
+
+.catering {
+    color: #64646A;
+    background: linear-gradient(152deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card button {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 166.667% */
+    text-transform: uppercase;
+}
+
+.card svg,
+.card button {
+    display: block;
+    margin: 0 auto;
+}
+
+.container3 {
+    display: flex;
+    align-items: start;
+}
+
+.word {
+    color: #64646A;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.words button {
+    margin-top: 60px;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 166.667% */
+    text-transform: uppercase;
+}
+
+/* contaiiner4 */
+.sellings {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.selling {
+    border-radius: 24px;
+    background: linear-gradient(142deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    box-shadow: 0px 20px 60px 0px rgba(163, 168, 178, 0.15);
+    padding: 20px;
+}
+
+.order {
+    display: flex;
+    align-items: center;
+}
+
+.orders {
+    display: flex;
+    gap: 20px;
+}
+
+.coff {
+    color: #64646A;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 140% */
+}
+
+.selling h4 {
+    color: #1B1B1D;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    /* 110% */
+}
+
+.price {
+    color: #1B1B1D;
+    font-family: Jost;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 93.333% */
+}
+
+.container5 {
+    display: flex;
+    align-items: center;
+}
+
+h5 {
+    color: #1B1B1D;
+    font-family: Jost;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 70px;
+    /* 109.375% */
+}
+
+.instant p {
+    color: #64646A;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container6 {
+    display: flex;
+    gap: 70px;
+}
+
+.right {
+    display: flex;
+    gap: 25px;
+}
+
+.customers {
+    border-radius: 16px;
+    background: linear-gradient(142deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    box-shadow: 0px 20px 60px 0px rgba(163, 168, 178, 0.15);
+
+}
+
+.customers h6 {
+    color: var(--Accent, #1B1B1D);
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 125% */
+}
+
+.imam {
+    padding-left: 30px;
+}
+
+.righ {
+    background-color: #FFF;
+    border-radius: 100%;
+    padding: 15px;
+}
+
+.rig {
+    background-color: #FFF;
+    border-radius: 100%;
+    padding: 15px;
+}
+
+/* container7 */
+.infos1 {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.contacts {
+    display: flex;
+    gap: 25px;
+
+}
+
+.infos p {
+    color: var(--Body-text, #64646A);
+    font-family: Jost;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 133.333% */
+}
+
+.infos h4 {
+    color: #1B1B1D;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px;
+    /* 125% */
+}
+
+.infos2 {
+    display: flex;
+    gap: 100px;
+
+}
+
+
+.info4 b {
+    color: var(--Accent, #1B1B1D);
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 166.667% */
+    text-transform: uppercase;
+}
+
+.info4 i {
+    color: var(--Body-text, #64646A);
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 136.364% */
+    border-radius: 65px;
+    background: #FFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 290px;
+}
